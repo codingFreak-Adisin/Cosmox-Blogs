@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cosmox Blogs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+
+        <link rel="shortcut icon" type="image/jpg" href="images/Cosmox.jpg"/>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FCW3D575M3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FCW3D575M3');
+</script>
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Cosmox<span></span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+<!--                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Media</a>
+                        </li> -->
+                        <li class = "nav-item">
+                            <a href = "https://cosmox-blogs.vercel.app" class = "nav-link">Blogs</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About Us</a>
+                        </li>
+                        <!--<li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Cosmox Blogs</h1>
+                    <p>We are a non-profit organization that works on delivering informational blogs based on cosmology, natural sciences, and environment, to aid ours and similar people's curiosity</p>
+                </div>
+                <!--<div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div> -->
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">Go through our most recent blogs (Click on them to read it)</span>
+                    <h2 class = "lg-title">featured blogs</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <a href="https://cosmox-blogs.vercel.app/post/colonizing-mars">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/colonizing-mars.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-blog"></i>
+                                Colonozing Mars
+                            </span>
+                            <div>
+                                <p class = "text">This topic has fascinated lot of people and Elon Musk is on the way to do this, now what’s like colonizing any planet. Lets check it out -></p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+
+                    <a href="https://cosmox-blogs.vercel.app/post/what-is-global-warming">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/global-warming.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-blog"></i>
+                                What is Global Warming?
+                            </span>
+                            <div>
+                                <p class = "text">Global warming, the phenomenon of increasing average air temperatures near the surface of Earth over the past centuries</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+
+                    <a href="https://cosmox-blogs.vercel.app/post/impact-of-human-population-on-environment">
+                        <div class = "featured-item my-2 shadow">
+                            <img src = "images/human-impact.jpeg" alt = "featured place">
+                            <div class = "featured-item-content">
+                                <span>
+                                    <i class = "fas fa-blog"></i>
+                                    Impact of the human population on the environment
+                                </span>
+                                <div>
+                                    <p class = "text">The population is increasing day by day in contrast to the earth’s life span which has been decreasing as out population grows.</p>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+
+<!--                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-berlin-germany.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, Germany
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">What we offer</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-blog"></i>
+                        </span>
+                        <h3>Blogs</h3>
+                        <p class = "text">We work on delivering informational blogs based on cosmology, natural sciences, and environment, to aid ours and similar people's curiosity. </p>
+                        <a href = "#" class = "btn">Visit The Website</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "far fa-comments"></i>
+                        </span>
+                        <h3>Forums Page</h3>
+                        <p class = "text">A place for people to interact/ask question/discuss about cosmology, natural sciences and environment</p>
+                        <a href = "#" class = "btn">Coming Soon!!</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-podcast"></i>
+                        </span>
+                        <h3>Podcasts</h3>
+                        <p class = "text">Podcasts by working professionals/researchers in the field of astronomy, physics, climate change, natural sciences etc</p>
+                        <a href = "#" class = "btn">Coming Soon!!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+    
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our readers say about us</span>
+                    <h2 class = "lg-title">Reviews</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Very nicely written and detailed explanation. For the next topic you can focus on the upcoming Renewable energies and techonological advancements which can delay this world destruction.<br> <b>(For Impact of Human Population on Environment - Blog)</b></p>
+                        <div class = "test-item-info">
+                            <img src = "images/nitesh.png" alt = "testimonial">
+                            <div>
+                                <h3>Nitesh Sinha</h3>
+                                <p class = "text">Working in Mercedes Benz</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Very insightful! Amazing! <br> <b>(For What is Global Warming? - Blog)</b></p>
+                        <div class = "test-item-info">
+                            <img src = "images/Vedang.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Vedang Mahajan</h3>
+                                <p class = "text">Middle School Student</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> 
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Cosmox<span>Blogs</span>
+                    </a>
+                    <p class = "text">We are a non-profit organization that works on delivering informational blogs based on cosmology, natural sciences, and environment, to aid ours and similar people's curiosity. </p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "https://www.instagram.com/cosmox.blogs/">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.linkedin.com/company/cosmox-blogs">
+                                <i class = "fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Quick Links:</h2>
+                    <ul>
+                        <li><a href = "#">Home</a></li>
+                        <li><a href = "about.html">About Us</a></li>
+                        <li><a href = "https://cosmox-blogs.vercel.app">Blogs</a></li>
+                        <li><a href = "#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
