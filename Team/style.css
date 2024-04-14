@@ -25,7 +25,7 @@ section {
   right: 0;
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: black;
   align-items: center;
   padding: 0 10vw;
   color: #3a2201;
@@ -52,7 +52,7 @@ section {
 }
 
 .navbar-links li a {
-  color: #3a2201;
+  color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
   display: block;
@@ -302,10 +302,12 @@ h3 {
   text-align: center;
   font-size: 42px;
   font-family: "Quicksand", sans-serif;
+  color: black;
 }
 
 p {
   text-align: center;
+  color: black;
 }
 
 @media (max-width: 1000px) {
@@ -330,7 +332,7 @@ button {
   padding: 1em 10vw;
   margin-bottom: 5vh;
   position: relative;
-  background-color: #eee;
+  background-color: white;
 }
 .grid-container {
   display: grid;
@@ -363,9 +365,11 @@ button {
 .grid-container h4 {
   padding-top: 0.5em;
   font-size: 24px;
+  color: black;
 }
 .grid-container h5 {
   font-size: 16px;
+  color: black;
 }
 .team-member {
   text-align: center;
@@ -375,7 +379,7 @@ button {
   width: 14rem;
   height: auto;
   border-radius: 50%;
-  border: 5px solid #00CED1;
+  border: 5px solid #00f7ff;
   box-shadow: 1px 1px 4px #3a220136;
 }
 
